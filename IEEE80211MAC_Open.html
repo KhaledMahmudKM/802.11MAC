@@ -1,0 +1,82 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Khaled Mahmud">
+        <meta name="Date" content="Feb 7, 2022">
+        <title>Frame Display</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"/>
+        <base target="displayiframe">
+
+        <link rel="stylesheet" type="text/css" href="framedisplay.css" />
+
+        <script src="kmdivider.js"></script>
+        <script src="kminits.js"></script>
+
+        <script type="text/javascript">
+            //Place Procedure Specific information and defaults here
+            kmCurrentDirectory="IEEE802.11_Open";            
+            kmSVGFile="IEEE802.11_MAC_Open.svg";
+            kmCurrentFilename='Beacon_OpenAuth.yaml'; //Startup frame
+
+            document.title=document.title+': '+kmCurrentDirectory;
+        </script>
+    </head>
+
+    <body style="margin:0px; padding: 0px;">
+        <div class="topbanner">
+            <h2>Frame Display</h2>
+            <h4>(c) Khaled Mahmud, 2022</h4>
+        </div>
+
+        <div class="topcontainer">
+            <div class="left_column" >
+                <div id="sgvdiv" class="km_svg_display"></div>
+            </div>
+            <div class="resizer kmbanner" id="km_resizer"></div>
+            <div class="right_column">
+                <div class="themeselect">
+                    <form>
+                        <label for="acetheme">Choose a theme:</label>
+                        <select id="acetheme">
+                            <option value="1">Terminal</option>
+                            <option value="2">Monokai</option>
+                            <option value="3">Ambiance</option>
+                            <option value="4">GitHub</option>
+                            <option value="5">Chrome</option>
+                            <option value="6">Clouds</option>
+                            <option value="7">Dawn</option>
+                            <option value="8">merbivore_soft</option>
+                            <option value="9">twilight</option>
+                            <option value="10">Xcode</option>
+                            <option value="11">sqlserver</option>
+                            <option value="12">IPlastic</option>
+                        </select>
+                    </form> 
+                    <script>
+                        const sb = document.querySelector('#acetheme')
+                        
+                        sb.onchange = (event) => {
+                            event.preventDefault();
+                            // show the selected index
+                            var theme=(sb[sb.selectedIndex].text).toLowerCase();
+                            kmCurrentTheme="ace/theme/"+theme;
+                            url="framedisplay.html?file="+ kmCurrentFilename+"&th="+kmCurrentTheme+"&d="+kmCurrentDirectory;
+                            window.open(url,"displayiframe");
+                      };
+                  </script>
+                </div>
+                <iframe name= "displayiframe" id="displayiframe"  src="" width="100%" height="100%" style="border:none;"> </iframe>
+                <script>
+                    url="framedisplay.html?file="+ kmCurrentFilename+"&th="+kmCurrentTheme+"&d="+kmCurrentDirectory;
+                    window.open(url,"displayiframe");
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
