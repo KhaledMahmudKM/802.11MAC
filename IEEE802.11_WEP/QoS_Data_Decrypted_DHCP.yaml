@@ -1,0 +1,127 @@
+Frame 47: 388 bytes on wire (3104 bits), 388 bytes captured (3104 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 QoS Data, Flags: .p.....T
+    Type/Subtype: QoS Data (0x0028)
+    Frame Control Field: 0x8841
+        .... ..00 = Version: 0
+        .... 10.. = Type: Data frame (2)
+        1000 .... = Subtype: 8
+        Flags: 0x41
+            .... ..01 = DS status: Frame from STA to DS via an AP (To DS: 1 From DS: 0) (0x1)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .1.. .... = Protected flag: Data is protected
+            0... .... = +HTC/Order flag: Not strictly ordered
+    .000 0000 0010 1100 = Duration: 44 microseconds
+    Receiver address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Transmitter address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Source address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    STA address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    .... .... .... 0000 = Fragment number: 0
+    0000 0000 1101 .... = Sequence number: 13
+    Qos Control: 0x0006
+        .... .... .... 0110 = TID: 6
+        [.... .... .... .110 = Priority: Voice (Voice) (6)]
+        .... .... ...0 .... = QoS bit 4: Bits 8-15 of QoS Control field are TXOP Duration Requested
+        .... .... .00. .... = Ack Policy: Normal Ack (0x0)
+        .... .... 0... .... = Payload Type: MSDU
+        0000 0000 .... .... = TXOP Duration Requested: 0 (no TXOP requested)
+    WEP parameters
+        Initialization Vector: 0x94eacf
+        Key Index: 0
+        WEP ICV: 0x415be0ab (correct)
+Logical-Link Control
+    DSAP: SNAP (0xaa)
+        1010 101. = SAP: SNAP
+        .... ...0 = IG Bit: Individual
+    SSAP: SNAP (0xaa)
+        1010 101. = SAP: SNAP
+        .... ...0 = CR Bit: Command
+    Control field: U, func=UI (0x03)
+        000. 00.. = Command: Unnumbered Information (0x00)
+        .... ..11 = Frame type: Unnumbered frame (0x3)
+    Organization Code: 00:00:00 (Officially Xerox, but
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 328
+    Identification: 0xc0b1 (49329)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 255
+    Protocol: UDP (17)
+    Header Checksum: 0xf9f3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 0.0.0.0
+    Destination Address: 255.255.255.255
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+    Source Port: 68
+    Destination Port: 67
+    Length: 308
+    Checksum: 0xacac [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 0]
+    [Timestamps]
+        [Time since first frame: 1.598949721 seconds]
+        [Time since previous frame: 1.598949721 seconds]
+    UDP payload (300 bytes)
+Dynamic Host Configuration Protocol (Request)
+    Message type: Boot Request (1)
+    Hardware type: Ethernet (0x01)
+    Hardware address length: 6
+    Hops: 0
+    Transaction ID: 0xc9f73163
+    Seconds elapsed: 2
+    Bootp flags: 0x0000 (Unicast)
+        0... .... .... .... = Broadcast flag: Unicast
+        .000 0000 0000 0000 = Reserved flags: 0x0000
+    Client IP address: 0.0.0.0
+    Your (client) IP address: 0.0.0.0
+    Next server IP address: 0.0.0.0
+    Relay agent IP address: 0.0.0.0
+    Client MAC address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Client hardware address padding: 00000000000000000000
+    Server host name not given
+    Boot file name not given
+    Magic cookie: DHCP
+    Option: (53) DHCP Message Type (Request)
+        Length: 1
+        DHCP: Request (3)
+    Option: (55) Parameter Request List
+        Length: 8
+        Parameter Request List Item: (1) Subnet Mask
+        Parameter Request List Item: (121) Classless Static Route
+        Parameter Request List Item: (3) Router
+        Parameter Request List Item: (6) Domain Name Server
+        Parameter Request List Item: (15) Domain Name
+        Parameter Request List Item: (114) DHCP Captive-Portal
+        Parameter Request List Item: (119) Domain Search
+        Parameter Request List Item: (252) Private/Proxy autodiscovery
+    Option: (57) Maximum DHCP Message Size
+        Length: 2
+        Maximum DHCP Message Size: 1500
+    Option: (61) Client identifier
+        Length: 7
+        Hardware type: Ethernet (0x01)
+        Client MAC address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Option: (50) Requested IP Address (192.168.88.253)
+        Length: 4
+        Requested IP Address: 192.168.88.253
+    Option: (51) IP Address Lease Time
+        Length: 4
+        IP Address Lease Time: (7776000s) 90 days
+    Option: (255) End
+        Option End: 255
+    Padding: 000000000000000000000000000000000000000000

@@ -1,0 +1,40 @@
+Frame 65: 388 bytes on wire (3104 bits), 388 bytes captured (3104 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 QoS Data, Flags: .p.....T
+    Type/Subtype: QoS Data (0x0028)
+    Frame Control Field: 0x8841
+        .... ..00 = Version: 0
+        .... 10.. = Type: Data frame (2)
+        1000 .... = Subtype: 8
+        Flags: 0x41
+            .... ..01 = DS status: Frame from STA to DS via an AP (To DS: 1 From DS: 0) (0x1)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .1.. .... = Protected flag: Data is protected
+            0... .... = +HTC/Order flag: Not strictly ordered
+    .000 0000 0010 1100 = Duration: 44 microseconds
+    Receiver address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Transmitter address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Source address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    STA address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    .... .... .... 0000 = Fragment number: 0
+    0000 0001 0101 .... = Sequence number: 21
+    Qos Control: 0x0006
+        .... .... .... 0110 = TID: 6
+        [.... .... .... .110 = Priority: Voice (Voice) (6)]
+        .... .... ...0 .... = QoS bit 4: Bits 8-15 of QoS Control field are TXOP Duration Requested
+        .... .... .00. .... = Ack Policy: Normal Ack (0x0)
+        .... .... 0... .... = Payload Type: MSDU
+        0000 0000 .... .... = TXOP Duration Requested: 0 (no TXOP requested)
+    WEP parameters
+        Initialization Vector: 0x9ceacf
+        Key Index: 0
+        WEP ICV: 0x8969297a (not verified)
+Data (336 bytes)
+    Data: f5d1f42d659caf8e583eb82864a6416e8a198a536642e8715cb23a5452f6e3b730e6bf5b…
+    [Length: 336]
