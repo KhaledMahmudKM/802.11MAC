@@ -1,0 +1,81 @@
+.topbanner {
+
+    font: normal 11px/150% Arial, Helvetica, sans-serif; 
+    overflow: hidden; 		
+    background-color:rgb(253, 253, 246); ;
+
+    /*background: linear-gradient(to right, #ff9933 0%, #f8cfa5 50%, #cc3300 100%);*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align:center;
+    vertical-align:middle;
+    color:rgb(35, 48, 90);
+
+    height: 60px;
+    width: 100%;
+}
+.kmbanner{
+    height: 30px;
+    background: linear-gradient(to right, #ff9933 0%, #f8cfa5 50%, #cc3300 100%);
+}
+
+.topcontainer {
+    display: flex;
+
+    /* Misc */
+    border: 1px solid #cbd5e0;
+    height: 100%;
+    width: 100%;
+}
+.left_column {
+    /* Initially, the left takes 3/4 width */
+    width: 50%;
+    /* Misc */
+    align-items: left;
+    display: flex;
+    justify-content: left;
+}
+.resizer {
+    background: linear-gradient(to right, #ff9933 0%, #f8cfa5 50%, #cc3300 100%);
+    cursor: ew-resize;
+    height: 100%;
+    width: 5px;
+}
+.right_column {
+    /* Take the remaining width */
+    flex: 1;
+    /* Misc */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.themeselect {
+    font-family: Arial;
+    font-size: 11pt;
+    z-index: 2;
+    position:absolute;
+    top: 40px;
+    right: 10px;
+
+    justify-content: left;
+    align-items: left;
+    border: 0px solid #45485f;
+}
+.km_svgtitle{
+    font-family: Arial;
+    font-size: 11pt;
+    position:absolute;
+    height:20px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(212, 219, 241);
+    /* border: 1px solid #2a5788;*/
+    z-index: 0;
+
+  }
+  .km_svg_display{
+    top: 0px;
+    width: 100%; 
+  }
