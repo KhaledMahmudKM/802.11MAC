@@ -1,0 +1,36 @@
+Frame 22: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 Authentication, Flags: ........
+    Type/Subtype: Authentication (0x000b)
+    Frame Control Field: 0xb000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        1011 .... = Subtype: 11
+        Flags: 0x00
+    .000 0001 0011 1010 = Duration: 314 microseconds
+    Receiver address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Destination address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Transmitter address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Source address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    .... .... .... 0000 = Fragment number: 0
+    0110 0110 1011 .... = Sequence number: 1643
+IEEE 802.11 Wireless Management
+    Fixed parameters (6 bytes)
+        Authentication Algorithm: Shared key (1)
+        Authentication SEQ: 0x0001
+        Status code: Successful (0x0000)
+    Tagged parameters (24 bytes)
+        Tag: Vendor Specific: Apple, Inc.
+            Tag Number: Vendor Specific (221)
+            Tag length: 11
+            OUI: 00:17:f2 (Apple, Inc.)
+            Vendor Specific OUI Type: 10
+            Vendor Specific Data: 0a00010400000000
+        Tag: Vendor Specific: Broadcom
+            Tag Number: Vendor Specific (221)
+            Tag length: 9
+            OUI: 00:10:18 (Broadcom)
+            Vendor Specific OUI Type: 2
+            Vendor Specific Data: 020000100000

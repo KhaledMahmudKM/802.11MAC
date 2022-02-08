@@ -1,0 +1,97 @@
+Frame 35: 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 Association Request, Flags: ........
+    Type/Subtype: Association Request (0x0000)
+    Frame Control Field: 0x0000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        0000 .... = Subtype: 0
+        Flags: 0x00
+    .000 0001 0011 1010 = Duration: 314 microseconds
+    Receiver address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Destination address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Transmitter address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Source address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    .... .... .... 0000 = Fragment number: 0
+    0110 0110 1110 .... = Sequence number: 1646
+IEEE 802.11 Wireless Management
+    Fixed parameters (4 bytes)
+        Capabilities Information: 0x0431
+            .... .... .... ...1 = ESS capabilities: Transmitter is an AP
+            .... .... .... ..0. = IBSS status: Transmitter belongs to a BSS
+            .... ..0. .... 00.. = CFP participation capabilities: No point coordinator at AP (0x00)
+            .... .... ...1 .... = Privacy: AP/STA can support WEP
+            .... .... ..1. .... = Short Preamble: Allowed
+            .... .... .0.. .... = PBCC: Not Allowed
+            .... .... 0... .... = Channel Agility: Not in use
+            .... ...0 .... .... = Spectrum Management: Not Implemented
+            .... .1.. .... .... = Short Slot Time: In use
+            .... 0... .... .... = Automatic Power Save Delivery: Not Implemented
+            ...0 .... .... .... = Radio Measurement: Not Implemented
+            ..0. .... .... .... = DSSS-OFDM: Not Allowed
+            .0.. .... .... .... = Delayed Block Ack: Not Implemented
+            0... .... .... .... = Immediate Block Ack: Not Implemented
+        Listen Interval: 0x0014
+    Tagged parameters (66 bytes)
+        Tag: SSID parameter set: table99
+            Tag Number: SSID parameter set (0)
+            Tag length: 7
+            SSID: table99
+        Tag: Supported Rates 1(B), 2(B), 5.5(B), 11(B), 18, 24, 36, 54, [Mbit/sec]
+            Tag Number: Supported Rates (1)
+            Tag length: 8
+            Supported Rates: 1(B) (0x82)
+            Supported Rates: 2(B) (0x84)
+            Supported Rates: 5.5(B) (0x8b)
+            Supported Rates: 11(B) (0x96)
+            Supported Rates: 18 (0x24)
+            Supported Rates: 24 (0x30)
+            Supported Rates: 36 (0x48)
+            Supported Rates: 54 (0x6c)
+        Tag: Extended Supported Rates 6, 9, 12, 48, [Mbit/sec]
+            Tag Number: Extended Supported Rates (50)
+            Tag length: 4
+            Extended Supported Rates: 6 (0x0c)
+            Extended Supported Rates: 9 (0x12)
+            Extended Supported Rates: 12 (0x18)
+            Extended Supported Rates: 48 (0x60)
+        Tag: Power Capability Min: -7, Max: 19
+            Tag Number: Power Capability (33)
+            Tag length: 2
+            Minimum Transmit Power: -7
+            Maximum Transmit Power: 19
+        Tag: Supported Channels
+            Tag Number: Supported Channels (36)
+            Tag length: 2
+            Supported Channels Set #1 First: 1, Range: 13 
+                First Supported Channel: 1
+                Supported Channel Range: 13
+        Tag: Vendor Specific: Apple, Inc.
+            Tag Number: Vendor Specific (221)
+            Tag length: 11
+            OUI: 00:17:f2 (Apple, Inc.)
+            Vendor Specific OUI Type: 10
+            Vendor Specific Data: 0a00010400000000
+        Tag: Vendor Specific: Broadcom
+            Tag Number: Vendor Specific (221)
+            Tag length: 9
+            OUI: 00:10:18 (Broadcom)
+            Vendor Specific OUI Type: 2
+            Vendor Specific Data: 020000100000
+        Tag: Vendor Specific: Microsoft Corp.: WMM/WME: Information Element
+            Tag Number: Vendor Specific (221)
+            Tag length: 7
+            OUI: 00:50:f2 (Microsoft Corp.)
+            Vendor Specific OUI Type: 2
+            Type: WMM/WME (0x02)
+            WME Subtype: Information Element (0)
+            WME Version: 1
+            WME QoS Info: 0x00
+                .00. .... = Max SP Length: WMM AP may deliver all buffered frames (MSDUs and MMPDUs) (0x0)
+                .... 0... = AC_BE: non-WMM PS
+                .... .0.. = AC_BK: non-WMM PS
+                .... ..0. = AC_VI: non-WMM PS
+                .... ...0 = AC_VO: non-WMM PS
+                0..0 .... = Reserved: 0x0

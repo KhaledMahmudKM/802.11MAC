@@ -1,0 +1,28 @@
+Frame 24: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 Authentication, Flags: ........
+    Type/Subtype: Authentication (0x000b)
+    Frame Control Field: 0xb000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        1011 .... = Subtype: 11
+        Flags: 0x00
+    .000 0001 0011 1010 = Duration: 314 microseconds
+    Receiver address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Destination address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Transmitter address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Source address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    .... .... .... 0000 = Fragment number: 0
+    0010 1111 1111 .... = Sequence number: 767
+IEEE 802.11 Wireless Management
+    Fixed parameters (6 bytes)
+        Authentication Algorithm: Shared key (1)
+        Authentication SEQ: 0x0002
+        Status code: Responding STA does not support the specified authentication algorithm (0x000d)
+    Tagged parameters (130 bytes)
+        Tag: Challenge text
+            Tag Number: Challenge text (16)
+            Tag length: 128
+            Challenge Text: 1c8037ceba819b9edd7a57e5d594aa493fa9b3d21536f49f871c5e7af94c4eb5c39671ff…
