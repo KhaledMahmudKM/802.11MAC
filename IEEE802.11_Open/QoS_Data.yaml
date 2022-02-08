@@ -1,0 +1,42 @@
+Frame 565: 380 bytes on wire (3040 bits), 380 bytes captured (3040 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 QoS Data, Flags: ......F.
+    Type/Subtype: QoS Data (0x0028)
+    Frame Control Field: 0x8802
+        .... ..00 = Version: 0
+        .... 10.. = Type: Data frame (2)
+        1000 .... = Subtype: 8
+        Flags: 0x02
+            .... ..10 = DS status: Frame from DS to a STA via AP(To DS: 0 From DS: 1) (0x2)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .0.. .... = Protected flag: Data is not protected
+            0... .... = +HTC/Order flag: Not strictly ordered
+    .000 0000 0011 1100 = Duration: 60 microseconds
+    Receiver address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Transmitter address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Destination address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Source address: Routerbo_88:a2:bd (64:d1:54:88:a2:bd)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    STA address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    .... .... .... 0000 = Fragment number: 0
+    0000 0000 0001 .... = Sequence number: 1
+    Qos Control: 0x0000
+        .... .... .... 0000 = TID: 0
+        [.... .... .... .000 = Priority: Best Effort (Best Effort) (0)]
+        .... .... ...0 .... = EOSP: Service period
+        .... .... .00. .... = Ack Policy: Normal Ack (0x0)
+        .... .... 0... .... = Payload Type: MSDU
+        0000 0000 .... .... = QAP PS Buffer State: 0x00
+Logical-Link Control
+    DSAP: SNAP (0xaa)
+    SSAP: SNAP (0xaa)
+    Control field: U, func=UI (0x03)
+    Organization Code: 00:00:00 (Officially Xerox, but
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.88.1, Dst: 192.168.88.253
+User Datagram Protocol, Src Port: 67, Dst Port: 68
+Dynamic Host Configuration Protocol (ACK)

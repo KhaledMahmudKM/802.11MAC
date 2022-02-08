@@ -1,0 +1,19 @@
+Frame 917: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 Acknowledgement, Flags: ........
+    Type/Subtype: Acknowledgement (0x001d)
+    Frame Control Field: 0xd400
+        .... ..00 = Version: 0
+        .... 01.. = Type: Control frame (1)
+        1101 .... = Subtype: 13
+        Flags: 0x00
+            .... ..00 = DS status: Not leaving DS or network is operating in AD-HOC mode (To DS: 0 From DS: 0) (0x0)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .0.. .... = Protected flag: Data is not protected
+            0... .... = +HTC/Order flag: Not strictly ordered
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
