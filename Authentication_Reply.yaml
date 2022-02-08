@@ -1,0 +1,23 @@
+Frame 9: 48 bytes on wire (384 bits), 48 bytes captured (384 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 Authentication, Flags: ........
+    Type/Subtype: Authentication (0x000b)
+    Frame Control Field: 0xb000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        1011 .... = Subtype: 11
+        Flags: 0x00
+    .000 0001 0011 1010 = Duration: 314 microseconds
+    Receiver address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Destination address: 06:e0:51:3e:d7:35 (06:e0:51:3e:d7:35)
+    Transmitter address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    Source address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    BSS Id: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
+    .... .... .... 0000 = Fragment number: 0
+    0100 0010 1100 .... = Sequence number: 1068
+IEEE 802.11 Wireless Management
+    Fixed parameters (6 bytes)
+        Authentication Algorithm: Open System (0)
+        Authentication SEQ: 0x0002
+        Status code: Successful (0x0000)

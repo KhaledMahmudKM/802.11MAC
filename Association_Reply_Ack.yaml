@@ -1,0 +1,8 @@
+Frame 14: 28 bytes on wire (224 bits), 28 bytes captured (224 bits) on interface wlan0mon, id 0
+Radiotap Header v0, Length 18
+802.11 radio information
+IEEE 802.11 Acknowledgement, Flags: ........
+    Type/Subtype: Acknowledgement (0x001d)
+    Frame Control Field: 0xd400
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Routerbo_88:a2:c2 (64:d1:54:88:a2:c2)
