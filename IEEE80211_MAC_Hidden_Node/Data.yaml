@@ -1,0 +1,27 @@
+Frame 1999: 654 bytes on wire (5232 bits), 654 bytes captured (5232 bits)
+IEEE 802.11 Data, Flags: .p....FT
+    Type/Subtype: Data (0x0020)
+    Frame Control Field: 0x0843
+        .... ..00 = Version: 0
+        .... 10.. = Type: Data frame (2)
+        0000 .... = Subtype: 0
+        Flags: 0x43
+            .... ..11 = DS status: WDS (AP to AP) or Mesh (MP to MP) Frame (To DS: 1 From DS: 1) (0x3)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .1.. .... = Protected flag: Data is protected
+            0... .... = +HTC/Order flag: Not strictly ordered
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: ICANNIAN_00:00:fb (00:00:5e:00:00:fb)
+    Transmitter address: 0a:ea:44:0c:35:50 (0a:ea:44:0c:35:50)
+    Destination address: IPv4mcast_fb (01:00:5e:00:00:fb)
+    Source address: Apple_92:71:5d (98:b8:e3:92:71:5d)
+    .... .... .... 0000 = Fragment number: 0
+    0101 1010 0101 .... = Sequence number: 1445
+    TKIP/CCMP parameters
+        Key Index: 0
+Data (616 bytes)
+    Data: bf0e8ae75c84a23e7274e890664aeee47afb399e0c8ead378b3c1cdde93fd45f80417e45…
+    [Length: 616]

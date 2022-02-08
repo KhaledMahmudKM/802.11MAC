@@ -1,0 +1,12 @@
+Frame 1997: 16 bytes on wire (128 bits), 16 bytes captured (128 bits)
+IEEE 802.11 Request-to-send, Flags: ........
+    Type/Subtype: Request-to-send (0x001b)
+    Frame Control Field: 0xb400
+        .... ..00 = Version: 0
+        .... 01.. = Type: Control frame (1)
+        1011 .... = Subtype: 11
+        Flags: 0x00
+    .000 0000 1001 1000 = Duration: 152 microseconds
+    Receiver address: ExtremeN_0c:35:55 (08:ea:44:0c:35:55)
+    Transmitter address: Apple_92:71:5d (98:b8:e3:92:71:5d)
+

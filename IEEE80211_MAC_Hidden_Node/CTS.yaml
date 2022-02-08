@@ -1,0 +1,11 @@
+Frame 1998: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+IEEE 802.11 Clear-to-send, Flags: ........
+    Type/Subtype: Clear-to-send (0x001c)
+    Frame Control Field: 0xc400
+        .... ..00 = Version: 0
+        .... 01.. = Type: Control frame (1)
+        1100 .... = Subtype: 12
+        Flags: 0x00
+    .000 0000 0110 1100 = Duration: 108 microseconds
+    Receiver address: Apple_92:71:5d (98:b8:e3:92:71:5d)
+
