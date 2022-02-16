@@ -1,0 +1,93 @@
+Frame 2: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+IEEE 802.11 Beacon frame, Flags: ........
+    Type/Subtype: Beacon frame (0x0008)
+    Frame Control Field: 0x8000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        1000 .... = Subtype: 8
+        Flags: 0x00
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Transmitter address: ArubaaHe_94:4c:31 (00:1a:1e:94:4c:31)
+    Source address: ArubaaHe_94:4c:31 (00:1a:1e:94:4c:31)
+    BSS Id: ArubaaHe_94:4c:31 (00:1a:1e:94:4c:31)
+    .... .... .... 0000 = Fragment number: 0
+    0000 0000 1101 .... = Sequence number: 13
+IEEE 802.11 Wireless Management
+    Fixed parameters (12 bytes)
+        Timestamp: 20377999
+        Beacon Interval: 0.102400 [Seconds]
+        Capabilities Information: 0x0411
+            .... .... .... ...1 = ESS capabilities: Transmitter is an AP
+            .... .... .... ..0. = IBSS status: Transmitter belongs to a BSS
+            .... ..0. .... 00.. = CFP participation capabilities: No point coordinator at AP (0x00)
+            .... .... ...1 .... = Privacy: AP/STA can support WEP
+            .... .... ..0. .... = Short Preamble: Not Allowed
+            .... .... .0.. .... = PBCC: Not Allowed
+            .... .... 0... .... = Channel Agility: Not in use
+            .... ...0 .... .... = Spectrum Management: Not Implemented
+            .... .1.. .... .... = Short Slot Time: In use
+            .... 0... .... .... = Automatic Power Save Delivery: Not Implemented
+            ...0 .... .... .... = Radio Measurement: Not Implemented
+            ..0. .... .... .... = DSSS-OFDM: Not Allowed
+            .0.. .... .... .... = Delayed Block Ack: Not Implemented
+            0... .... .... .... = Immediate Block Ack: Not Implemented
+    Tagged parameters (66 bytes)
+        Tag: SSID parameter set: CWSP-TKIP
+            Tag Number: SSID parameter set (0)
+            Tag length: 9
+            SSID: CWSP-TKIP
+        Tag: Supported Rates 6(B), 9, 12(B), 18, 24(B), 36, 48, 54, [Mbit/sec]
+            Tag Number: Supported Rates (1)
+            Tag length: 8
+            Supported Rates: 6(B) (0x8c)
+            Supported Rates: 9 (0x12)
+            Supported Rates: 12(B) (0x98)
+            Supported Rates: 18 (0x24)
+            Supported Rates: 24(B) (0xb0)
+            Supported Rates: 36 (0x48)
+            Supported Rates: 48 (0x60)
+            Supported Rates: 54 (0x6c)
+        Tag: DS Parameter set: Current Channel: 48
+            Tag Number: DS Parameter set (3)
+            Tag length: 1
+            Current Channel: 48
+        Tag: Traffic Indication Map (TIM): DTIM 0 of 1 bitmap
+            Tag Number: Traffic Indication Map (TIM) (5)
+            Tag length: 4
+            DTIM count: 0
+            DTIM period: 1
+            Bitmap control: 0x00
+                .... ...0 = Multicast: False
+                0000 000. = Bitmap Offset: 0x00
+            Partial Virtual Bitmap: 00
+        Tag: Vendor Specific: Microsoft Corp.: WPA Information Element
+            Tag Number: Vendor Specific (221)
+            Tag length: 22
+            OUI: 00:50:f2 (Microsoft Corp.)
+            Vendor Specific OUI Type: 1
+            Type: WPA Information Element (0x01)
+            WPA Version: 1
+            Multicast Cipher Suite: 00:50:f2 (Microsoft Corp.) TKIP
+                Multicast Cipher Suite OUI: 00:50:f2 (Microsoft Corp.)
+                Multicast Cipher Suite type: TKIP (2)
+            Unicast Cipher Suite Count: 1
+            Unicast Cipher Suite List 00:50:f2 (Microsoft Corp.) TKIP
+                Unicast Cipher Suite: 00:50:f2 (Microsoft Corp.) TKIP
+                    Unicast Cipher Suite OUI: 00:50:f2 (Microsoft Corp.)
+                    Unicast Cipher Suite type: TKIP (2)
+            Auth Key Management (AKM) Suite Count: 1
+            Auth Key Management (AKM) List 00:50:f2 (Microsoft Corp.) PSK
+                Auth Key Management (AKM) Suite: 00:50:f2 (Microsoft Corp.) PSK
+                    Auth Key Management (AKM) OUI: 00:50:f2 (Microsoft Corp.)
+                    Auth Key Management (AKM) type: PSK (2)
+        Tag: Vendor Specific: Atheros Communications, Inc.: Unknown
+            Tag Number: Vendor Specific (221)
+            Tag length: 10
+            OUI: 00:03:7f (Atheros Communication
+            Vendor Specific OUI Type: 4
+            Type: Unknown (0x04)
+            Subtype: 0x01
+            Version: 0x00
+            Atheros IE data: 00000000

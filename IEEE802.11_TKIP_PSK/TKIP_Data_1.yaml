@@ -1,0 +1,23 @@
+Frame 4: 1488 bytes on wire (11904 bits), 1488 bytes captured (11904 bits)
+IEEE 802.11 Data, Flags: .p....F.
+    Type/Subtype: Data (0x0020)
+    Frame Control Field: 0x0842
+        .... ..00 = Version: 0
+        .... 10.. = Type: Data frame (2)
+        0000 .... = Subtype: 0
+        Flags: 0x42
+    .000 0000 0010 1100 = Duration: 44 microseconds
+    Receiver address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Transmitter address: ArubaaHe_94:4c:31 (00:1a:1e:94:4c:31)
+    Destination address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Source address: Sonicwal_2f:0b:20 (00:06:b1:2f:0b:20)
+    BSS Id: ArubaaHe_94:4c:31 (00:1a:1e:94:4c:31)
+    STA address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    .... .... .... 0000 = Fragment number: 0
+    0101 0000 1101 .... = Sequence number: 1293
+    TKIP parameters
+        TKIP Ext. Initialization Vector: 0x00000001750B
+        Key Index: 0
+Data (1456 bytes)
+    Data: 18a95318c25563a466823f17e0ac82bc0702631826f94e032278bcffa53315943335a99f…
+    [Length: 1456]
