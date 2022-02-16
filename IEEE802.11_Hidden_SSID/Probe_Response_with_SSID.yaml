@@ -1,0 +1,24 @@
+Frame 63: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits)
+IEEE 802.11 Probe Response, Flags: ........
+    Type/Subtype: Probe Response (0x0005)
+    Frame Control Field: 0x5000
+    .000 0000 0011 1100 = Duration: 60 microseconds
+    Receiver address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Destination address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Transmitter address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    Source address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    BSS Id: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    .... .... .... 0000 = Fragment number: 0
+    1010 1101 1111 .... = Sequence number: 2783
+IEEE 802.11 Wireless Management
+    Fixed parameters (12 bytes)
+        Timestamp: 53459867164
+        Beacon Interval: 0.102400 [Seconds]
+        Capabilities Information: 0x0001
+    Tagged parameters (113 bytes)
+        Tag: SSID parameter set: CWSP-Hidden2
+        Tag: Supported Rates 6(B), 9, 12(B), 18, 24(B), 36, 48, 54, [Mbit/sec]
+        Tag: Cisco CCX1 CKIP + Device Name
+        Tag: Vendor Specific: Microsoft Corp.: WMM/WME: Parameter Element
+        Tag: Vendor Specific: Cisco Systems, Inc: Aironet Qos (4)
+        Tag: Vendor Specific: Cisco Systems, Inc: Aironet CCX version = 2

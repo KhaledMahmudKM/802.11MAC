@@ -1,0 +1,49 @@
+Frame 59: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits)
+IEEE 802.11 Probe Response, Flags: ........
+    Type/Subtype: Probe Response (0x0005)
+    Frame Control Field: 0x5000
+    .000 0000 0011 1100 = Duration: 60 microseconds
+    Receiver address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Destination address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Transmitter address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    Source address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    BSS Id: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    .... .... .... 0000 = Fragment number: 0
+    1010 1101 1110 .... = Sequence number: 2782
+IEEE 802.11 Wireless Management
+    Fixed parameters (12 bytes)
+        Timestamp: 53459866329
+        Beacon Interval: 0.102400 [Seconds]
+        Capabilities Information: 0x0001
+    Tagged parameters (102 bytes)
+        Tag: SSID parameter set: \000
+            Tag Number: SSID parameter set (0)
+            Tag length: 1
+            SSID: 
+        Tag: Supported Rates 6(B), 9, 12(B), 18, 24(B), 36, 48, 54, [Mbit/sec]
+        Tag: Cisco CCX1 CKIP + Device Name
+            Tag Number: Cisco CCX1 CKIP + Device Name (133)
+            Tag length: 30
+            Unknown: 000084000f00ff030100
+            Name: ap
+            Clients: 0
+            Unknown2: 000023
+        Tag: Vendor Specific: Microsoft Corp.: WMM/WME: Parameter Element
+            Tag Number: Vendor Specific (221)
+            Tag length: 24
+            OUI: 00:50:f2 (Microsoft Corp.)
+            Vendor Specific OUI Type: 2
+            Type: WMM/WME (0x02)
+            WME Subtype: Parameter Element (1)
+            WME Version: 1
+            WME QoS Info: 0x04
+                0... .... = U-APSD: Disabled
+                .... 0100 = Parameter Set Count: 0x4
+                .000 .... = Reserved: 0x0
+            Reserved: 00
+            Ac Parameters ACI 0 (Best Effort), ACM no, AIFSN 3, ECWmin/max 4/10 (CWmin/max 15/1023), TXOP 0
+            Ac Parameters ACI 1 (Background), ACM no, AIFSN 7, ECWmin/max 4/10 (CWmin/max 15/1023), TXOP 0
+            Ac Parameters ACI 2 (Video), ACM no, AIFSN 2, ECWmin/max 3/4 (CWmin/max 7/15), TXOP 94
+            Ac Parameters ACI 3 (Voice), ACM no, AIFSN 2, ECWmin/max 2/3 (CWmin/max 3/7), TXOP 47
+        Tag: Vendor Specific: Cisco Systems, Inc: Aironet Qos (4)
+        Tag: Vendor Specific: Cisco Systems, Inc: Aironet CCX version = 2

@@ -1,0 +1,16 @@
+Frame 61: 48 bytes on wire (384 bits), 48 bytes captured (384 bits)
+IEEE 802.11 Probe Request, Flags: ........
+    Type/Subtype: Probe Request (0x0004)
+    Frame Control Field: 0x4000
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Transmitter address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Source address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    BSS Id: Broadcast (ff:ff:ff:ff:ff:ff)
+    .... .... .... 0000 = Fragment number: 0
+    0111 1000 1011 .... = Sequence number: 1931
+IEEE 802.11 Wireless Management
+    Tagged parameters (24 bytes)
+        Tag: SSID parameter set: CWSP-Hidden2
+        Tag: Supported Rates 6, 9, 12, 18, 24, 36, 48, 54, [Mbit/sec]

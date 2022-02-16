@@ -1,0 +1,154 @@
+Frame 57: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits)
+IEEE 802.11 Beacon frame, Flags: ........
+    Type/Subtype: Beacon frame (0x0008)
+    Frame Control Field: 0x8000
+        .... ..00 = Version: 0
+        .... 00.. = Type: Management frame (0)
+        1000 .... = Subtype: 8
+        Flags: 0x00
+            .... ..00 = DS status: Not leaving DS or network is operating in AD-HOC mode (To DS: 0 From DS: 0) (0x0)
+            .... .0.. = More Fragments: This is the last fragment
+            .... 0... = Retry: Frame is not being retransmitted
+            ...0 .... = PWR MGT: STA will stay up
+            ..0. .... = More Data: No data buffered
+            .0.. .... = Protected flag: Data is not protected
+            0... .... = +HTC/Order flag: Not strictly ordered
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Transmitter address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    Source address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    BSS Id: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
+    .... .... .... 0000 = Fragment number: 0
+    1010 1101 1101 .... = Sequence number: 2781
+IEEE 802.11 Wireless Management
+    Fixed parameters (12 bytes)
+        Timestamp: 53459865672
+        Beacon Interval: 0.102400 [Seconds]
+        Capabilities Information: 0x0001
+            .... .... .... ...1 = ESS capabilities: Transmitter is an AP
+            .... .... .... ..0. = IBSS status: Transmitter belongs to a BSS
+            .... ..0. .... 00.. = CFP participation capabilities: No point coordinator at AP (0x00)
+            .... .... ...0 .... = Privacy: AP/STA cannot support WEP
+            .... .... ..0. .... = Short Preamble: Not Allowed
+            .... .... .0.. .... = PBCC: Not Allowed
+            .... .... 0... .... = Channel Agility: Not in use
+            .... ...0 .... .... = Spectrum Management: Not Implemented
+            .... .0.. .... .... = Short Slot Time: Not in use
+            .... 0... .... .... = Automatic Power Save Delivery: Not Implemented
+            ...0 .... .... .... = Radio Measurement: Not Implemented
+            ..0. .... .... .... = DSSS-OFDM: Not Allowed
+            .0.. .... .... .... = Delayed Block Ack: Not Implemented
+            0... .... .... .... = Immediate Block Ack: Not Implemented
+    Tagged parameters (108 bytes)
+        Tag: SSID parameter set: \000
+            Tag Number: SSID parameter set (0)
+            Tag length: 1
+            SSID: 
+        Tag: Supported Rates 6(B), 9, 12(B), 18, 24(B), 36, 48, 54, [Mbit/sec]
+            Tag Number: Supported Rates (1)
+            Tag length: 8
+            Supported Rates: 6(B) (0x8c)
+            Supported Rates: 9 (0x12)
+            Supported Rates: 12(B) (0x98)
+            Supported Rates: 18 (0x24)
+            Supported Rates: 24(B) (0xb0)
+            Supported Rates: 36 (0x48)
+            Supported Rates: 48 (0x60)
+            Supported Rates: 54 (0x6c)
+        Tag: Traffic Indication Map (TIM): DTIM 1 of 2 bitmap
+            Tag Number: Traffic Indication Map (TIM) (5)
+            Tag length: 4
+            DTIM count: 1
+            DTIM period: 2
+            Bitmap control: 0x00
+                .... ...0 = Multicast: False
+                0000 000. = Bitmap Offset: 0x00
+            Partial Virtual Bitmap: 00
+        Tag: Cisco CCX1 CKIP + Device Name
+            Tag Number: Cisco CCX1 CKIP + Device Name (133)
+            Tag length: 30
+            Unknown: 000084000f00ff030100
+            Name: ap
+            Clients: 0
+            Unknown2: 000023
+        Tag: Vendor Specific: Microsoft Corp.: WMM/WME: Parameter Element
+            Tag Number: Vendor Specific (221)
+            Tag length: 24
+            OUI: 00:50:f2 (Microsoft Corp.)
+            Vendor Specific OUI Type: 2
+            Type: WMM/WME (0x02)
+            WME Subtype: Parameter Element (1)
+            WME Version: 1
+            WME QoS Info: 0x04
+                0... .... = U-APSD: Disabled
+                .... 0100 = Parameter Set Count: 0x4
+                .000 .... = Reserved: 0x0
+            Reserved: 00
+            Ac Parameters ACI 0 (Best Effort), ACM no, AIFSN 3, ECWmin/max 4/10 (CWmin/max 15/1023), TXOP 0
+                ACI / AIFSN Field: 0x03
+                    .... 0011 = AIFSN: 3
+                    ...0 .... = Admission Control Mandatory: No
+                    .00. .... = ACI: Best Effort (0)
+                    0... .... = Reserved: 0
+                ECW: 0xa4
+                    1010 .... = ECW Max: 10
+                    .... 0100 = ECW Min: 4
+                    CW Max: 1023
+                    CW Min: 15
+                TXOP Limit: 0
+            Ac Parameters ACI 1 (Background), ACM no, AIFSN 7, ECWmin/max 4/10 (CWmin/max 15/1023), TXOP 0
+                ACI / AIFSN Field: 0x27
+                    .... 0111 = AIFSN: 7
+                    ...0 .... = Admission Control Mandatory: No
+                    .01. .... = ACI: Background (1)
+                    0... .... = Reserved: 0
+                ECW: 0xa4
+                    1010 .... = ECW Max: 10
+                    .... 0100 = ECW Min: 4
+                    CW Max: 1023
+                    CW Min: 15
+                TXOP Limit: 0
+            Ac Parameters ACI 2 (Video), ACM no, AIFSN 2, ECWmin/max 3/4 (CWmin/max 7/15), TXOP 94
+                ACI / AIFSN Field: 0x42
+                    .... 0010 = AIFSN: 2
+                    ...0 .... = Admission Control Mandatory: No
+                    .10. .... = ACI: Video (2)
+                    0... .... = Reserved: 0
+                ECW: 0x43
+                    0100 .... = ECW Max: 4
+                    .... 0011 = ECW Min: 3
+                    CW Max: 15
+                    CW Min: 7
+                TXOP Limit: 94
+            Ac Parameters ACI 3 (Voice), ACM no, AIFSN 2, ECWmin/max 2/3 (CWmin/max 3/7), TXOP 47
+                ACI / AIFSN Field: 0x62
+                    .... 0010 = AIFSN: 2
+                    ...0 .... = Admission Control Mandatory: No
+                    .11. .... = ACI: Voice (3)
+                    0... .... = Reserved: 0
+                ECW: 0x32
+                    0011 .... = ECW Max: 3
+                    .... 0010 = ECW Min: 2
+                    CW Max: 7
+                    CW Min: 3
+                TXOP Limit: 47
+        Tag: Vendor Specific: Cisco Systems, Inc: Aironet Qos (4)
+            Tag Number: Vendor Specific (221)
+            Tag length: 22
+            OUI: 00:40:96 (Cisco Systems, Inc)
+            Vendor Specific OUI Type: 4
+            Aironet IE type: Qos (4)
+            Aironet IE QoS reserved: 0x00
+            Aironet IE QoS paramset: 4
+            CCX QoS Parameters: ACI 0 (Best Effort), Admission Control not Mandatory, AIFSN 7, ECWmin 4, ECWmax 10, TXOP 0
+            CCX QoS Parameters: ACI 1 (Background), Admission Control not Mandatory, AIFSN 3, ECWmin 4, ECWmax 10, TXOP 0
+            CCX QoS Parameters: ACI 2 (Video), Admission Control not Mandatory, AIFSN 2, ECWmin 3, ECWmax 4, TXOP 0
+            CCX QoS Parameters: ACI 3 (Voice), Admission Control not Mandatory, AIFSN 2, ECWmin 2, ECWmax 3, TXOP 0
+        Tag: Vendor Specific: Cisco Systems, Inc: Aironet CCX version = 2
+            Tag Number: Vendor Specific (221)
+            Tag length: 5
+            OUI: 00:40:96 (Cisco Systems, Inc)
+            Vendor Specific OUI Type: 3
+            Aironet IE type: CCX version (3)
+            Aironet IE CCX version: 2

@@ -1,0 +1,10 @@
+Frame 64: 10 bytes on wire (80 bits), 10 bytes captured (80 bits)
+IEEE 802.11 Acknowledgement, Flags: ........
+    Type/Subtype: Acknowledgement (0x001d)
+    Frame Control Field: 0xd400
+        .... ..00 = Version: 0
+        .... 01.. = Type: Control frame (1)
+        1101 .... = Subtype: 13
+        Flags: 0x00
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Cisco_0d:4b:6a (00:0d:bd:0d:4b:6a)
