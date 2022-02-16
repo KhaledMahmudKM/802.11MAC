@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Khaled Mahmud">
+        <meta name="Date" content="Feb 7, 2022">
+        <title>Frame Display</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Source+Code+Pro&display=swap"/>
+
+        <base target="displayiframe">
+        <link rel="stylesheet" type="text/css" href="kmframedisplay.css" />
+        <script src="kmdivider.js"></script>
+        <script src="kminits.js"></script>
+
+        <script type="text/javascript">
+            //Place Procedure Specific information and defaults here
+            kmCurrentDirectory="IEEE802.11_TKIP_PSK";            
+            kmSVGFile="IEEE802.11_MAC_TKIP_PSK.svg";
+            kmCurrentFilename='TKIP_Data_1.yaml'; //Startup frame
+            //Decorations
+            document.title=document.title+': '+kmCurrentDirectory;
+        </script>
+    </head>
+
+    <body >
+        <div class="kmtopbanner">
+            <div class="back_to_home" ><a href="index.html" target="_self">Back to ToC</a></div>
+            <div class="top_title" >Frame Display</div>
+            <div class="km_author">(c) Khaled Mahmud, 2022</div>
+        </div>
+
+        <div class="topcontainer">
+            <div class="left_column" >
+                <div id="sgvdiv" class="km_svg_display"></div>
+            </div>
+            <div class="resizer kmbanner" id="km_resizer"></div>
+            <div class="right_column">
+                <div class="themeselect" >
+                    <form>
+                        <label for="acetheme">Choose a theme:</label>
+                        <select id="acetheme" onchange="optionOnChange()"></select>
+                        <script src="themeselect.js" ></script>
+                    </form> 
+                </div>
+                <iframe name= "displayiframe" id="displayiframe"  src="" width="100%" height="100%" style="border:none;"> </iframe>
+                <script>
+                    url="framedisplay.html?file="+ kmCurrentFilename+"&th="+kmCurrentTheme+"&d="+kmCurrentDirectory;
+                    window.open(url,"displayiframe");
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
+
