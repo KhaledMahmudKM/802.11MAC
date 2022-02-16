@@ -1,0 +1,37 @@
+Frame 3: 99 bytes on wire (792 bits), 99 bytes captured (792 bits)
+IEEE 802.11 Beacon frame, Flags: ........
+    Type/Subtype: Beacon frame (0x0008)
+    Frame Control Field: 0x8000
+    .000 0000 0000 0000 = Duration: 0 microseconds
+    Receiver address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination address: Broadcast (ff:ff:ff:ff:ff:ff)
+    Transmitter address: ArubaaHe_94:4c:32 (00:1a:1e:94:4c:32)
+    Source address: ArubaaHe_94:4c:32 (00:1a:1e:94:4c:32)
+    BSS Id: ArubaaHe_94:4c:32 (00:1a:1e:94:4c:32)
+    .... .... .... 0000 = Fragment number: 0
+    1000 1001 1011 .... = Sequence number: 2203
+IEEE 802.11 Wireless Management
+    Fixed parameters (12 bytes)
+        Timestamp: 112947793
+        Beacon Interval: 0.102400 [Seconds]
+        Capabilities Information: 0x0411
+    Tagged parameters (63 bytes)
+        Tag: SSID parameter set: CWSP-AES
+        Tag: Supported Rates 6(B), 9, 12(B), 18, 24(B), 36, 48, 54, [Mbit/sec]
+        Tag: DS Parameter set: Current Channel: 48
+        Tag: Traffic Indication Map (TIM): DTIM 0 of 1 bitmap
+        Tag: RSN Information
+            Tag Number: RSN Information (48)
+            Tag length: 20
+            RSN Version: 1
+            Group Cipher Suite: 00:0f:ac (Ieee 802.11) AES (CCM)
+                Group Cipher Suite OUI: 00:0f:ac (Ieee 802.11)
+                Group Cipher Suite type: AES (CCM) (4)
+            Pairwise Cipher Suite Count: 1
+            Pairwise Cipher Suite List 00:0f:ac (Ieee 802.11) AES (CCM)
+                Pairwise Cipher Suite: 00:0f:ac (Ieee 802.11) AES (CCM)
+            Auth Key Management (AKM) Suite Count: 1
+            Auth Key Management (AKM) List 00:0f:ac (Ieee 802.11) PSK
+                Auth Key Management (AKM) Suite: 00:0f:ac (Ieee 802.11) PSK
+            RSN Capabilities: 0x0000
+        Tag: Vendor Specific: Atheros Communications, Inc.: Unknown

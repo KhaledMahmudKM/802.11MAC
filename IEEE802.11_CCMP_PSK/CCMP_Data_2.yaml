@@ -1,0 +1,19 @@
+Frame 8: 96 bytes on wire (768 bits), 96 bytes captured (768 bits)
+IEEE 802.11 Data, Flags: .p....F.
+    Type/Subtype: Data (0x0020)
+    Frame Control Field: 0x0842
+    .000 0000 0010 1100 = Duration: 44 microseconds
+    Receiver address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Transmitter address: ArubaaHe_94:4c:32 (00:1a:1e:94:4c:32)
+    Destination address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    Source address: Sonicwal_2f:0b:20 (00:06:b1:2f:0b:20)
+    BSS Id: ArubaaHe_94:4c:32 (00:1a:1e:94:4c:32)
+    STA address: IntelCor_9f:b6:bb (00:18:de:9f:b6:bb)
+    .... .... .... 0000 = Fragment number: 0
+    0111 1010 0101 .... = Sequence number: 1957
+    CCMP parameters
+        CCMP Ext. Initialization Vector: 0x0000000017A3
+        Key Index: 0
+Data (64 bytes)
+    Data: f04ecd401501c88cceefd374f48b7b70219ffdfa2275fbd668cdaa2fc22bcfdad5af380c…
+    [Length: 64]
