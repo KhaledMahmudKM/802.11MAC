@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Khaled Mahmud">
+  <meta name="Date" content="Feb 7, 2022"
+<title>Frame Display</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" integrity="sha512-GZ1RIgZaSc8rnco/8CXfRdCpDxRCphenIiZ2ztLy3XQfCbQUSCuk8IudvNHxkRA3oUg6q0qejgN/qqyG1duv5Q==" crossorigin="anonymous"></script>
+
+<style type="text/css" media="screen">
+    #km_ace_display { 
+        position: absolute;
+        top: 20px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        /*background-color:rgb(34, 40, 58); Overriding the default-KM*/
+    }
+    #km_displaytitle{
+      font-family: Arial;
+      font-size: 11pt;
+      position: absolute;
+      top: 0px;
+      height:20px;
+      width: 100%;
+      background-color:rgb(213, 222, 252);
+      /* border: 1px solid #2a5788;*/
+      z-index: 2;
+
+    }
+
+</style>
+
+</head>
+<body style="margin:0px; padding: 0px;">
+
+<div id="km_displaytitle">sdfsd fsd</div>
+
+<div id="km_ace_display"></div>
+   
+<script>
+    var km_ace_display = ace.edit("km_ace_display");
+    km_ace_display.setTheme("ace/theme/dreamweaver");  //https://github.com/ajaxorg/ace/blob/master/lib/ace/ext/themelist.js
+    km_ace_display.session.setMode("ace/mode/yaml"); //https://ace.c9.io/build/kitchen-sink.html
+    km_ace_display.setOptions({
+        readOnly: true,
+        showPrintMargin: false,
+        fontSize: 14,
+    });
+</script>
+<script>
+    let params=new URLSearchParams(window.location.search);
+    let framefile=params.get('file');
+    let themename=params.get('th');
+    let directory=params.get('d');
+    
+    let doctitle=framefile.slice(0,framefile.indexOf('.')).replace(/_/g, " ");;
+    //alert(themename)
+    km_ace_display.setTheme(themename);
+
+    function updateDisplay(url) {
+      fetch(url).then(function(response) {
+        response.text().then(function(text) {
+            km_ace_display.setValue(text);
+            km_ace_display.clearSelection();
+        });
+      });      
+    }//End of updatedispaly
+    updateDisplay(directory+'/'+ framefile);
+    
+    document.getElementById("km_displaytitle").innerText=doctitle+" Frame";
+    //alert(el.text);
+
+  </script>
+
+</body>
+</html>
